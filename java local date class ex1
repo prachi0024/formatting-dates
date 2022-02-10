@@ -1,0 +1,14 @@
+import java.time.*;
+public class LocalDateEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         LocalDate dt = LocalDate.now();
+         System.out.println(dt);
+         LocalDate Yesterday = dt.minusDays(1);
+         System.out.println("yesterday");
+         LocalDate tommorrow = dt.plusDays(2);
+         System.out.println("tommorow");
+	}
+
+}
