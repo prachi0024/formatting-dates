@@ -1,0 +1,12 @@
+import java.time.LocalDateTime;
+import java.util.*;
+public class DateTimeEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       LocalDateTime time1 = LocalDateTime.now();
+       System.out.println("before formatting : "+time1);
+	
+	}
+
+}
