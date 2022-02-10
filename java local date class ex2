@@ -1,0 +1,10 @@
+import java.time.*;
+public class LeapEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         LocalDate myDate = LocalDate.of(2016, 5, 5);
+         System.out.println(MyDate.is LeapYear());
+	}
+
+}
