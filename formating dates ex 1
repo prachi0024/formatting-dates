@@ -1,0 +1,13 @@
+
+import java.util.SimpleDateFormat;
+import java.util.*;
+public class FormatEx {
+
+	public static void main(String[] args) {
+	   Date now = new Date();
+	   SimpleDateFormat ft = new SimpleDateFormat("dd:MM:yyy hh:mm:ss:SSS");
+	   System.out.println("my pre - defines date:" +ft);
+
+	}
+
+}
