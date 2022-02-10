@@ -1,0 +1,8 @@
+import java.util.*;
+public class FormatEx {
+	public static void main(string[] args){
+		Date now = new Date();
+		System.out.println(now);
+	}
+
+}
